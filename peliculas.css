@@ -1,0 +1,72 @@
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    margin:0px;
+    height: 100%;
+    flex-direction: column;
+    background-image: url(Imagenes/fondo.jpg);
+}
+header{
+    display: flex;
+    background-image: url(Imagenes/fondoCabecera.jpg);
+    color:white;
+    flex-direction: row;
+    padding:5px 40px;
+    justify-content: flex-end;
+    align-content: center;
+}
+#busqueda{
+    border-radius: 5px;
+    border:1px solid black;
+    padding: 2px;
+    align-self: center;
+    margin-left:40px;
+    width: 400px;
+    height: 30px;
+}
+#busqueda:focus{
+    box-shadow:0px 2px 0px black,0px -2px 0px black,2px 0px 0px black,-2px 0px 0px black,0px 0px 20px black;
+}
+#peliculas{
+    width: 100%;
+    height: fit-content;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: auto;
+    margin-left:40px ;
+}
+header img{
+    align-self: center;
+}
+#lupa{
+    margin-left:15px ;
+    padding:2px;
+    cursor: pointer;
+}
+
+header label{
+    height: fit-content;
+    margin:auto 15px auto 0px;
+}
+
+.ventana{
+    background: rgb(166, 166, 170, 0.8);
+    width: 50%;
+    color: black;
+    font-size: 18px;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    display: none;
+}
+
