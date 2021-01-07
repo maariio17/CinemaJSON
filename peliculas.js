@@ -14,7 +14,7 @@ function buscar(){
             //console.log(pelicula);
         }
     };
-    xhttp.open("GET", "http://www.omdbapi.com/?apikey=5f2a0e9a&t="+peliculaBuscar+"", true); // Aquí está puesto un ejemplo de llamada a la API, tienes que poner lo que necesites. En este caso es buscar las pelis que se llamen Titanic
+    xhttp.open("GET", "https://www.omdbapi.com/?apikey=5f2a0e9a&t="+peliculaBuscar+"", true); // Aquí está puesto un ejemplo de llamada a la API, tienes que poner lo que necesites. En este caso es buscar las pelis que se llamen Titanic
     xhttp.send(); // Cuando llamas al send se lanza la petición y se ejecuta lo de xhttp.onreadystatechange
 }
 
