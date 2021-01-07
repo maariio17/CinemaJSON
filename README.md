@@ -2,7 +2,7 @@
 
 # Movie-Search
 
-Web application movie search engine.
+Web application CinePolis.
 
 ## Use of the components:
 
